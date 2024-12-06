@@ -1,7 +1,7 @@
 print("Vítejte v Kalkulačce OOP")
 
-cislo1 = int(input("Zadejte první číslo: "))
-cislo2 = int(input("Zadejte druhé čislo: "))
+a = int(input("Zadejte první číslo: "))
+b = int(input("Zadejte druhé čislo: "))
 
 soucet = a + b
 rozdil = a - b
