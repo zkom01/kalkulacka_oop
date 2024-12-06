@@ -40,4 +40,4 @@ cislo2 = kalc.nacti_cislo("Zadej druhé číslo:", "Není číslo znovu!")
 
 print(f"Zadali jste čísla {cislo1} a {cislo2} výsledek: {kalc.proved_operaci(cislo1, cislo2)}")
 
-jhdvbdjvbdkjvbdskbvdkvdkvbdkjvbdvkdsn
+# jhdvbdjvbdkjvbdskbvdkvdkvbdkjvbdvkdsn
