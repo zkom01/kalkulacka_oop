@@ -10,7 +10,6 @@ class KalkulackaOOP:
 
     def proved_operaci(self, a, b):
         operace = 0
-        kalc = KalkulackaOOP()
         while operace not in [1,2,3,4]:
             print("1 - sčítání")
             print("2 - odčítání")
@@ -32,10 +31,13 @@ class KalkulackaOOP:
             else:
                 print("Zadej číslo 1 - 4")
 
+
 print("Vítejte v Kalkulačce OOP")
 kalc = KalkulackaOOP()
 
-a = kalc.nacti_cislo("Zadej první číslo:", "Není číslo znovu!")
-b = kalc.nacti_cislo("Zadej druhé číslo:", "Není číslo znovu!")
+cislo1 = kalc.nacti_cislo("Zadej první číslo:", "Není číslo znovu!")
+cislo2 = kalc.nacti_cislo("Zadej druhé číslo:", "Není číslo znovu!")
 
-print(f"Zadali jste čísla {a} a {b} výsledek: {kalc.proved_operaci(a, b)}")
+print(f"Zadali jste čísla {cislo1} a {cislo2} výsledek: {kalc.proved_operaci(cislo1, cislo2)}")
+
+jhdvbdjvbdkjvbdskbvdkvdkvbdkjvbdvkdsn
